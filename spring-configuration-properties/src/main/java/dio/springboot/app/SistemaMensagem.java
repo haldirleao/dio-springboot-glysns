@@ -10,7 +10,7 @@ import java.util.List;
 @Component
 public class SistemaMensagem implements CommandLineRunner {
 	@Autowired
-	private Rementente rementente;
+	private Remetente rementente;
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("Mensagem enviada por: " + rementente.getNome()
